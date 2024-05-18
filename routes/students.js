@@ -24,6 +24,8 @@ const ash = require('express-async-handler');
 //   }
 // });
 
+// By default, find by Primary key includes all the data fields. So this is already done
+
 /* GET ALL STUDENTS: async/await using express-async-handler (ash) */
 // Automatically catches any error and sends to Routing Error-Handling Middleware (app.js)
 // It is the same as using "try-catch" and calling next(error)

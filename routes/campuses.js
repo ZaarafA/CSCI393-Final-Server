@@ -24,6 +24,7 @@ const ash = require('express-async-handler');
 //   }
 // });
 
+// By default, find by Primary key includes all the data fields. So this is already done
 /* GET ALL CAMPUSES */
 router.get('/', ash(async(req, res) => {
   let campuses = await Campus.findAll({include: [Student]});  // Get all campuses and their associated students
