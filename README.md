@@ -1,4 +1,4 @@
-# 39548 - Campus Management System Server
+# Campus Management System Server
 
 | Faraaz Ali | @ZaarafA |
 |-----------|------------|
